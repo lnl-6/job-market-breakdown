@@ -1,0 +1,85 @@
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+!*.ipynb
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ---- Type checkers / linters ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# ---- Data & outputs (keep the repo light; adjust if you need to version data) ----
+data/raw/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.sqlite
+*.db
+*.xlsx
+*.zip
+*.gz
+*.7z
+
+# ---- Secrets ----
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+token.json
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
